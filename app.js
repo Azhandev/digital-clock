@@ -2,7 +2,7 @@ let hoursId = document.getElementById("hoursId");
 let minutesId = document.getElementById("minutesId");
 let secId = document.getElementById("secId");
 let indicator = document.getElementById("indicators");
-
+ 
 function digitalClock() {
   let d = new Date();
   let hours = d.getHours();
